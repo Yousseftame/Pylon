@@ -86,3 +86,10 @@ html {
   background-position: top;
 }
 
+.bg-services-cover{
+  background-image: url('/src/assets/eduard-gross-izPL0yrJZSk-unsplash\ 1.png');
+  background-size: fill;
+  background-position: center center;
+  
+}
+
