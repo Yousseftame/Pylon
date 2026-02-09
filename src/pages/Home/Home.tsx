@@ -6,11 +6,11 @@ import Purpose from '../Sections/Purpose'
 import Culture from '../Sections/Culture'
 import Services from '../Sections/Services'
 import Tut from '../Sections/Tut'
-import DS from '../Sections/Ds'
 import Tact from '../Sections/Tact'
 import Think from '../Sections/Think'
-import Insightify from '../Sections/insightify'
 import MediaMagnet from '../Sections/MediaMagnet'
+import DS from '../Sections/DS'
+import Insightify from '../Sections/Insightify'
 
 export default function Home() {
   return (

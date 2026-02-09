@@ -4,3 +4,15 @@
 html {
   scroll-behavior: smooth;
 }
+
+.bg-hero-cover {
+  background-image: url('/src/assets/shutterstock_2039321180\ 1.png');
+   background-size: cover;
+  background-position: top;
+}
+
+.bg-purpose-cover{
+  background-image: url('/src/assets/Rectangle\ 41.png');
+   background-size: cover;
+  background-position: top;
+}
