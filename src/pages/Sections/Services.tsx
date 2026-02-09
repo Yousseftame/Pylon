@@ -1,5 +1,6 @@
 import React from "react";
 import TutSection from "../../components/shared/TutSection";
+import DSSection from "../../components/shared/DSSection";
 
 export default function Services() {
   const services = [
@@ -24,18 +25,18 @@ export default function Services() {
     <>
       <section
         id="services"
-        className="bg-services-cover min-h-screen w-full relative"
+        className="bg-services-cover min-h-screen w-full relative overflow-hidden"
       >
         {/* Glass morphism container */}
-        <div className="absolute inset-0 ">
+        <div className="absolute inset-0">
           <div className="max-w-[1400px] mx-auto px-4 sm:px-12 py-16">
             {/* Title */}
-          <h3 className="text-center text-[32px] sm:text-[40px] font-normal mb-12 text-black">
+            <h3 className="text-center text-[32px] sm:text-[40px] font-normal mb-12 text-black">
               Our Services
             </h3>
 
             {/* Services Grid */}
-            <div className="flex flex-wrap justify-center items-center gap-4 w-full px-4">
+            <div className="flex flex-wrap justify-center items-center gap-4 w-full px-4 mb-16">
               {services.map((service, index) => (
                 <button
                   key={index}
@@ -47,9 +48,17 @@ export default function Services() {
             </div>
           </div>
         </div>
-      </section>
-      <TutSection />
 
+        {/* TUT Section - Continues with same background */}
+        <div className="relative mt-[100vh]  md:mt-[70vh]">
+          <TutSection />
+        </div>
+
+        {/* DS Section - Continues with same background */}
+        <div className="relative ">
+          <DSSection />
+        </div>
+      </section>
     </>
   );
 }

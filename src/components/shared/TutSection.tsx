@@ -8,11 +8,11 @@ import Section5 from "../../assets/image (1).png";
 
 export default function TutSection() {
   return (
-    <section id="tut" className="min-h-screen w-full bg-[#E8E9E7] py-16">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 items-start \ ">
+    <section id="tut" className="min-h-screen w-full py-16">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-12 overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 items-start">
           {/* Left Side - Content */}
-          <div data-aos="fade-right" className="space-y-8 overflow-hidden ">
+          <div data-aos="fade-right" className="space-y-8">
             {/* Logo */}
             <div className="mb-8">
               <img src={Tut} alt="TUT Logo" className="h-16 sm:h-20" />
@@ -64,10 +64,7 @@ export default function TutSection() {
           </div>
 
           {/* Right Side - Image Gallery */}
-          <div
-            data-aos="fade-left"
-            className="relative space-y-4 overflow-hidden "
-          >
+          <div data-aos="fade-left" className="relative space-y-4">
             <p className="text-xs sm:text-sm tracking-wider uppercase text-[#585A45]">
               E-COMMERCE, TRADE & CULTURAL EXPORTS
             </p>

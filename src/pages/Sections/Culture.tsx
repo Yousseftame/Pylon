@@ -10,7 +10,7 @@ export default function Culture() {
         {/* First title in the middle of the screen */}
         <div className="flex-1 flex justify-center items-center">
           <h3
-            data-aos="zoom-out"
+            data-aos="zoom-in"
             className="text-4xl sm:text-5xl font-bold text-white text-center"
           >
             Culture meets Innovation
@@ -20,7 +20,7 @@ export default function Culture() {
         {/* Second text at the bottom */}
         <div className="mb-12 text-center max-w-[900px] sm:max-w-[1100px]">
           <h3
-            data-aos="zoom-out"
+            data-aos="zoom-in"
             className="text-white text-lg  sm:text-xl leading-relaxed"
           >
             At Pylon Collective, we don’t just adapt to change — we define
