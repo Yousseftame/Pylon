@@ -1,4 +1,5 @@
 import React from "react";
+import TutSection from "../../components/shared/TutSection";
 
 export default function Services() {
   const services = [
@@ -47,6 +48,8 @@ export default function Services() {
           </div>
         </div>
       </section>
+      <TutSection />
+
     </>
   );
 }
