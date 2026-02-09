@@ -60,77 +60,50 @@ export default function TutSection() {
           </div>
 
           {/* Right Side - Image Gallery Grid */}
+          {/* Right Side - Images */}
           <div className="relative">
-            {/* Custom Grid Layout */}
-            <div className="grid grid-cols-6 grid-rows-6 gap-3 h-[600px]">
-              {/* Top Left - Tall Image (spans 2 columns, 3 rows) */}
-              <div className="col-span-5 row-span-6 bg-gray-300 rounded-lg overflow-hidden">
+            <div className="grid grid-cols-2 gap-4 h-[650px]">
+              {/* Left Tall Image */}
+              <div className="row-span-3 overflow-hidden">
                 <img
                   src={Section1}
-                  alt="Gallery 1"
+                  alt="Left Tall"
                   className="w-full h-full object-cover"
                 />
               </div>
 
-              {/* Top Middle - Medium Image (spans 2 columns, 2 rows) */}
-              <div className="col-span-5 col-start-5 row-span-6 bg-gray-300 rounded-lg overflow-hidden">
+              {/* Middle Top Image */}
+              <div className="row-span-2 overflow-hidden">
                 <img
                   src={Section2}
-                  alt="Gallery 2"
+                  alt="Middle Top"
                   className="w-full h-full object-cover"
                 />
               </div>
 
-              {/* Top Right - Square Image (spans 2 columns, 2 rows) */}
-              <div className="col-span-2 col-start-5 row-span-2 bg-gray-300 rounded-lg overflow-hidden">
+              {/* Right Tall Image */}
+              <div className="row-span-3 overflow-hidden">
                 <img
                   src="/path-to-image-3.jpg"
-                  alt="Gallery 3"
+                  alt="Right Tall"
                   className="w-full h-full object-cover"
                 />
               </div>
 
-              {/* Middle Left Bottom - Wide Rectangle (spans 2 columns, 2 rows) */}
-              <div className="col-span-2 row-span-2 row-start-4 bg-gray-300 rounded-lg overflow-hidden">
+              {/* Middle Bottom Small */}
+              <div className="overflow-hidden">
                 <img
                   src="/path-to-image-4.jpg"
-                  alt="Gallery 4"
+                  alt="Middle Bottom"
                   className="w-full h-full object-cover"
                 />
               </div>
 
-              {/* Middle Center - Tall Image (spans 2 columns, 3 rows) */}
-              <div className="col-span-2 col-start-3 row-span-3 row-start-3 bg-gray-300 rounded-lg overflow-hidden">
+              {/* Bottom Wide Strip */}
+              <div className="col-span-3 h-[140px] overflow-hidden">
                 <img
                   src="/path-to-image-5.jpg"
-                  alt="Gallery 5"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              {/* Bottom Right - Medium Rectangle (spans 2 columns, 3 rows) */}
-              <div className="col-span-2 col-start-5 row-span-3 row-start-3 bg-gray-300 rounded-lg overflow-hidden">
-                <img
-                  src="/path-to-image-6.jpg"
-                  alt="Gallery 6"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              {/* Bottom Left Small - appears at bottom */}
-              <div className="col-span-3 row-span-1 row-start-6 bg-gray-300 rounded-lg overflow-hidden">
-                <img
-                  src="/path-to-image-7.jpg"
-                  alt="Gallery 7"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              {/* Bottom Right Small */}
-              <div className="col-span-3 col-start-4 row-span-1 row-start-6 bg-gray-300 rounded-lg overflow-hidden">
-                <img
-                  src="/path-to-image-8.jpg"
-                  alt="Gallery 8"
+                  alt="Bottom Strip"
                   className="w-full h-full object-cover"
                 />
               </div>
