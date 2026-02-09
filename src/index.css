@@ -1,5 +1,49 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Cabinet Grotesk";
+  src: url("/src//assets/fonts/CabinetGrotesk-Variable.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title-nav {
+    font-family: "Cabinet Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 0%;
+  color: #0E0E0E;
+}
+
+a {
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-weight: 700;
+}
+
+
+.pylon-heading {
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-size: 180px;        /* text-[180px] */
+  line-height: 1;          /* leading-none */
+  letter-spacing: 0.02em; /* ممكن تعدل حسب الtracking-tight */
+  color: white;
+  position: relative;
+  user-select: none;       /* select-none */
+  text-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.25),
+    0 4px 12px rgba(0, 0, 0, 0.35),
+    0 0 1px rgba(0, 0, 0, 0.6);
+}
+
+
+p {
+  font-family: "Cabinet Grotesk", sans-serif;
+  font-weight: 100;
+    color: #0E0E0E;
+    letter-spacing: 0ch;
+
+}
 
 html {
   scroll-behavior: smooth;
