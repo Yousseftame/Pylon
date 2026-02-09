@@ -8,7 +8,7 @@
 }
 
 .title-nav {
-    font-family: "Cabinet Grotesk", sans-serif;
+  font-family: "Cabinet Grotesk", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: normal;
@@ -16,33 +16,51 @@
   color: #0E0E0E;
 }
 
-a {
+a, h3,h4,h5 {
   font-family: "Cabinet Grotesk", sans-serif;
   font-weight: 700;
 }
 
-
 .pylon-heading {
   font-family: "Cabinet Grotesk", sans-serif;
-  font-size: 180px;        /* text-[180px] */
-  line-height: 1;          /* leading-none */
-  letter-spacing: 0.02em; /* ممكن تعدل حسب الtracking-tight */
+  line-height: 0.9;
+  letter-spacing: 0.02em;
   color: white;
   position: relative;
-  user-select: none;       /* select-none */
+  user-select: none;
   text-shadow:
     0 1px 2px rgba(0, 0, 0, 0.25),
     0 4px 12px rgba(0, 0, 0, 0.35),
     0 0 1px rgba(0, 0, 0, 0.6);
+  
+  /* Responsive font sizing */
+  font-size: clamp(2.5rem, 12vw, 180px);
+  
+  /* Better text wrapping on small screens */
+  word-break: keep-all;
+  hyphens: none;
 }
 
+/* Additional responsive adjustments for very small screens */
+@media (max-width: 640px) {
+  .pylon-heading {
+    line-height: 0.95;
+    letter-spacing: 0.01em;
+  }
+}
+
+/* Medium screens */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .pylon-heading {
+    line-height: 0.92;
+  }
+}
 
 p {
   font-family: "Cabinet Grotesk", sans-serif;
   font-weight: 100;
-    color: #0E0E0E;
-    letter-spacing: 0ch;
-
+  color: #0E0E0E;
+  letter-spacing: 0ch;
 }
 
 html {
@@ -56,8 +74,15 @@ html {
   background-repeat: no-repeat;
 }
 
-.bg-purpose-cover{
+.bg-purpose-cover {
+  background-image: url('/src/assets/Rectangle\ 40.png');
+  background-size: cover;
+  background-position: top;
+}
+
+.bg-culture-cover {
   background-image: url('/src/assets/Rectangle\ 41.png');
   background-size: cover;
   background-position: top;
 }
+
