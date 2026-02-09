@@ -21,9 +21,9 @@ export default function Purpose() {
             data-aos="zoom-in"
             className="flex-1 flex flex-col justify-center items-center"
           >
-            <h3 className="relative text-5xl  font-bold text-white text-center">
+            <h3 className="relative text-4xl sm:text-5xl font-bold text-white text-center pb-2">
               Architects of Tomorrow's Experience
-              <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white"></span>
+              <span className="absolute left-0 bottom-0  w-full h-0.5 bg-amber-50"></span>
             </h3>
           </div>
         </div>
