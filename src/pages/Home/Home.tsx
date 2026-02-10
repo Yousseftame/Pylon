@@ -21,12 +21,7 @@ export default function Home() {
           <Purpose />
           <Culture />
           <Services />
-          <Tut />
-          <DS />
-          <Tact /> 
-          <Think />
-          <Insightify />
-          <MediaMagnet />
+        
           <Footer />
 
     </div>

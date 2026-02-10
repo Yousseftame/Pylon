@@ -4,6 +4,7 @@ import DSSection from "../../components/shared/DSSection";
 import TactSection from "../../components/shared/Tactsection";
 import ThinkSection from "../../components/shared/ThinkSection";
 import InsightifySection from "../../components/shared/InsightifySection";
+import MediaMagnetSection from "../../components/shared/Mediamagnetsection";
 
 export default function Services() {
   const services = [
@@ -69,12 +70,16 @@ export default function Services() {
 
         {/* THINK Section - Has its own background image */}
         <ThinkSection />
-        
+
         {/* Spacer Section - Shows services background again before next section */}
        
 
         {/* Insightify Section - Has its own background image */}
         <InsightifySection />
+
+
+          {/* Media Magnet Section - Continues with same background */}
+        <MediaMagnetSection/>
       </section>
     </>
   );
