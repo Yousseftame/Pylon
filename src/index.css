@@ -125,3 +125,10 @@ html {
 }
 
 
+.bg-insightify-cover {
+  background-image: url('/src/assets/imagegjh.png'); 
+      background-Size: "cover";
+        background-Position: "center";
+        background-Repeat: "no-repeat";
+        background-Color: "#0a3a5c";
+}

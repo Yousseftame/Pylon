@@ -3,6 +3,7 @@ import TutSection from "../../components/shared/TutSection";
 import DSSection from "../../components/shared/DSSection";
 import TactSection from "../../components/shared/Tactsection";
 import ThinkSection from "../../components/shared/ThinkSection";
+import InsightifySection from "../../components/shared/InsightifySection";
 
 export default function Services() {
   const services = [
@@ -68,10 +69,12 @@ export default function Services() {
 
         {/* THINK Section - Has its own background image */}
         <ThinkSection />
+        
         {/* Spacer Section - Shows services background again before next section */}
-        <section className=" min-h-[50vh] w-full relative">
-          {/* This section acts as a visual separator with the services background */}
-        </section>
+       
+
+        {/* Insightify Section - Has its own background image */}
+        <InsightifySection />
       </section>
     </>
   );
