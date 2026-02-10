@@ -6,7 +6,7 @@ const NotFound = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    const handleMouseMove = (e) => {
+    const handleMouseMove = (e :any) => {
       setMousePosition({
         x: (e.clientX / window.innerWidth - 0.5) * 20,
         y: (e.clientY / window.innerHeight - 0.5) * 20,
@@ -85,31 +85,26 @@ const NotFound = () => {
 
             <div className="w-24 sm:w-32 h-1 bg-black mx-auto"></div>
 
-            <p className="text-sm sm:text-base lg:text-lg xl:text-xl text-black/80 max-w-2xl mx-auto leading-relaxed font-light px-4">
-              Like an ancient traveler who strayed from the path between the
-              pylons, you&apos;ve ventured into uncharted territory. This page
-              has been lost to the desert of the digital realm.
-            </p>
+            {/* Action buttons */}
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-6 sm:mb-8">
+              <button
+                onClick={() => navigate("/")}
+                className="group relative px-6 sm:px-8 py-3 sm:py-4 border-2 border-black text-black font-medium tracking-widest uppercase text-xs sm:text-sm hover:bg-black hover:text-white transition-all duration-500 overflow-hidden rounded-sm w-full sm:w-auto sm:min-w-[180px]"
+              >
+                <span className="relative z-10">Return Home</span>
+                <div className="absolute inset-0 bg-black transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500"></div>
+              </button>
+
+              <button
+                onClick={() => navigate(-1)}
+                className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-black text-white font-medium tracking-widest uppercase text-xs sm:text-sm hover:bg-white hover:text-black border-2 border-black transition-all duration-500 rounded-sm w-full sm:w-auto sm:min-w-[180px]"
+              >
+                <span className="relative z-10">Go Back</span>
+              </button>
+            </div>
           </div>
 
-          {/* Action buttons */}
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mb-6 sm:mb-8">
-            <button
-              onClick={() => navigate("/")}
-              className="group relative px-6 sm:px-8 py-3 sm:py-4 border-2 border-black text-black font-medium tracking-widest uppercase text-xs sm:text-sm hover:bg-black hover:text-white transition-all duration-500 overflow-hidden rounded-sm w-full sm:w-auto sm:min-w-[180px]"
-            >
-              <span className="relative z-10">Return Home</span>
-              <div className="absolute inset-0 bg-black transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500"></div>
-            </button>
-
-            <button
-              onClick={() => navigate(-1)}
-              className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-black text-white font-medium tracking-widest uppercase text-xs sm:text-sm hover:bg-white hover:text-black border-2 border-black transition-all duration-500 rounded-sm w-full sm:w-auto sm:min-w-[180px]"
-            >
-              <span className="relative z-10">Go Back</span>
-            </button>
-          </div>
-
+         
           {/* Decorative bottom element */}
           <div className="mt-6 sm:mt-8 flex justify-center gap-2">
             {[...Array(7)].map((_, i) => (
