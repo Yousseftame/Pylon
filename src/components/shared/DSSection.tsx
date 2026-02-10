@@ -1,26 +1,26 @@
 import React from "react";
-import DSLogo from "../../assets/DS+ logo.png"; // Update with your actual logo path
-import DSImage from "../../assets/imagejj.png"; // Update with your actual image path
+import DSLogo from "../../assets/DS+ logo.png";
+import DSImage from "../../assets/imagejj.png";
 
 export default function DSSection() {
   return (
     <section id="ds" className="min-h-screen w-full py-16">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-12 overflow-hidden">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch min-h-[905px]">
           {/* Left Side - Image */}
-          <div data-aos="fade-right" className="relative h-full min-h-[600px]">
-            <div className="h-full w-full overflow-hidden rounded-lg">
+          <div data-aos="fade-right" className="relative h-full ">
+            <div className="h-full w-full overflow-hidden rounded-lg ">
               <img
                 src={DSImage}
                 alt="DS Media Production"
-                className="w-full h-full object-fill"
+                className="w-full h-full object-fill  transition-transform duration-300 hover:scale-105"
               />
             </div>
           </div>
 
           {/* Right Side - Glass Morphism Content Box */}
           <div data-aos="fade-left" className="relative h-full">
-            <div className="h-full bg-[#9FA097]/80 backdrop-blur-xs rounded-lg p-8 sm:p-12 shadow-xl flex flex-col justify-between">
+            <div className="h-full bg-gradient-to-b from-[#9FA097]/80 via-[#9FA097]/80 to-[#9FA097]/30 backdrop-blur-sm rounded-lg p-8 sm:p-12 shadow-xl flex flex-col justify-between">
               {/* Logo */}
               <div className="mb-8">
                 <img src={DSLogo} alt="DS+ Logo" className="h-16 sm:h-20" />
@@ -47,7 +47,7 @@ export default function DSSection() {
 
               {/* Third Description - Body Text */}
               <div className="mb-8 text-white">
-                <p className="text-sm sm:text-base  text-white leading-relaxed">
+                <p className="text-sm sm:text-base text-white leading-relaxed">
                   We don't just produce – we craft experiences that resonate.
                   Through cinematic storytelling and creative excellence, we
                   shape narratives that leave a lasting impression.
@@ -61,9 +61,9 @@ export default function DSSection() {
                 </button>
               </div>
 
-              {/* Bottom Text */}
-              <div className="">
-                <p className="text-xs sm:text-sm tracking-wider uppercase  text-white ">
+              {/* Bottom Text - Pushed to bottom */}
+              <div className="mt-auto pt-8">
+                <p className="text-xs sm:text-sm tracking-wider uppercase text-white">
                   MEDIA PRODUCTION AND CONTENT CREATION
                 </p>
               </div>

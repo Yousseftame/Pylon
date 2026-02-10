@@ -58,7 +58,7 @@ export default function TutSection() {
               <img
                 src={Section4}
                 alt="Gallery 3"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover  transition-transform duration-300 hover:scale-105"
               />
             </div>
           </div>
@@ -75,7 +75,7 @@ export default function TutSection() {
                 <img
                   src={Section1}
                   alt="Gallery 1"
-                  className="w-full h-full object-fill"
+                  className="w-full h-full object-fill  transition-transform duration-300 hover:scale-105"
                 />
               </div>
 
@@ -84,7 +84,7 @@ export default function TutSection() {
                 <img
                   src={Section2}
                   alt="Gallery 2"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover  transition-transform duration-300 hover:scale-105"
                 />
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function TutSection() {
                 <img
                   src={Section3}
                   alt="Gallery 3"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover  transition-transform duration-300 hover:scale-105"
                 />
               </div>
 
@@ -107,7 +107,7 @@ export default function TutSection() {
                   <img
                     src={Section5}
                     alt="Gallery 3"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover  transition-transform duration-300 hover:scale-105"
                   />
                 </div>
               </div>

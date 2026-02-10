@@ -1,6 +1,8 @@
 import React from "react";
 import TutSection from "../../components/shared/TutSection";
 import DSSection from "../../components/shared/DSSection";
+import TactSection from "../../components/shared/Tactsection";
+import ThinkSection from "../../components/shared/ThinkSection";
 
 export default function Services() {
   const services = [
@@ -58,6 +60,18 @@ export default function Services() {
         <div className="relative ">
           <DSSection />
         </div>
+
+        {/* TACT Section - Continues with same background */}
+        <div className="relative">
+          <TactSection />
+        </div>
+
+        {/* THINK Section - Has its own background image */}
+        <ThinkSection />
+        {/* Spacer Section - Shows services background again before next section */}
+        <section className=" min-h-[50vh] w-full relative">
+          {/* This section acts as a visual separator with the services background */}
+        </section>
       </section>
     </>
   );
