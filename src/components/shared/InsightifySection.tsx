@@ -13,7 +13,7 @@ export default function InsightifySection() {
       {/* Optional overlay */}
       <div className="absolute inset-0 bg-black/10"></div>
 
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-12 overflow-hidden relative z-10">
+      <div className="max-w-[1400px] 2xl:max-w-[2000px]  mx-auto px-4 sm:px-12 overflow-hidden relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch min-h-[800px]">
           {/* Left Side - Glass Box with Content and Image */}
           <div data-aos="fade-right" className="flex flex-col h-full">
@@ -32,8 +32,12 @@ export default function InsightifySection() {
               <div className="mb-6">
                 <h3 className="text-xl sm:text-2xl font-normal leading-tight text-white">
                   TRANSLATING DATA AND INSIGHT INTO DECISIONS THAT SHAPE THE
-                  FUTURE. <span className="underline font-extrabold"> INSIGHTIFY IS PYLON'S STRATEGIC BRAIN </span>,
-                  A POLICY AND RESEARCH POWERHOUSE DELIVERING ACTIONABLE
+                  FUTURE.{" "}
+                  <span className="underline font-extrabold">
+                    {" "}
+                    INSIGHTIFY IS PYLON'S STRATEGIC BRAIN{" "}
+                  </span>
+                  , A POLICY AND RESEARCH POWERHOUSE DELIVERING ACTIONABLE
                   INTELLIGENCE TO GOVERNMENTS, INSTITUTIONS, AND ORGANIZATIONS.
                   WITH A DEEP UNDERSTANDING OF REGIONAL CONTEXT AND GLOBAL
                   DYNAMICS, INSIGHTIFY SUPPORTS DECISION-MAKERS IN BUILDING

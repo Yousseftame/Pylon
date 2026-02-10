@@ -5,7 +5,7 @@ import DSImage from "../../assets/imagejj.png";
 export default function DSSection() {
   return (
     <section id="ds" className="min-h-screen w-full py-16">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-12 overflow-hidden">
+      <div className="max-w-[1400px] 2xl:max-w-[2000px]  mx-auto px-4 sm:px-12 overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch min-h-[905px]">
           {/* Left Side - Image */}
           <div data-aos="fade-right" className="relative h-full ">

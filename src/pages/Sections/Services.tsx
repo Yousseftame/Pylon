@@ -35,7 +35,7 @@ export default function Services() {
       >
         {/* Glass morphism container */}
         <div className="absolute inset-0">
-          <div className="max-w-[1400px] mx-auto px-4 sm:px-12 py-16">
+          <div className="max-w-[1400px] mx-auto px-4 sm:px-12 md:py-16 xl:py-39">
             {/* Title */}
             <h3 className="text-center text-[32px] sm:text-[40px] font-normal mb-12 text-black">
               Our Services

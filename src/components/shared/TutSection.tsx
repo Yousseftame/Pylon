@@ -9,7 +9,7 @@ import Section5 from "../../assets/image (1).png";
 export default function TutSection() {
   return (
     <section id="tut" className="min-h-screen w-full py-16">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-12 overflow-hidden">
+      <div className=" mx-auto px-4 sm:px-12 overflow-hidden">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 items-start">
           {/* Left Side - Content */}
           <div data-aos="fade-right" className="space-y-8">
@@ -54,7 +54,7 @@ export default function TutSection() {
               </button>
             </div>
 
-            <div className="col-span-7 h-[215px] overflow-hidden rounded-lg">
+            <div className="col-span-7   h-[215px] overflow-hidden rounded-lg">
               <img
                 src={Section4}
                 alt="Gallery 3"

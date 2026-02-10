@@ -5,7 +5,7 @@ import MediaMagnetBottomImage from "../../assets/mediaMagnet1.png"; // Update wi
 export default function MediaMagnetSection() {
   return (
     <section id="media" className="min-h-screen w-full py-16">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-12 overflow-hidden">
+      <div className="max-w-[1400px] 2xl:max-w-[2000px]  mx-auto px-4 sm:px-12 overflow-hidden">
         {/* Top Grid - Left and Right Sides */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:justify-items-center-safe items-center   mb-12">
           {/* Left Side - Logo and Descriptions */}

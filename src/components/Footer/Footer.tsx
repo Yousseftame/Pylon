@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer className="min-h-screen w-full">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-12">
+      <div className="max-w-[1400px] 2xl:max-w-[2000px]  mx-auto px-4 sm:px-12">
         {/* Realistic Silver Glass Box Container */}
         <div
           className="relative rounded-2xl p-8 sm:p-12 overflow-hidden"

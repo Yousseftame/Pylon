@@ -6,7 +6,7 @@ import TactImage2 from "../../assets/tactImage2.png"; // Update with your actual
 export default function TactSection() {
   return (
     <section id="tact" className="min-h-screen w-full py-16">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-12 overflow-hidden">
+      <div className="max-w-[1400px]  2xl:max-w-[2000px]  mx-auto px-4 sm:px-12 overflow-hidden">
         {/* Glass Box Container */}
         <div className="bg-white/10 backdrop-blur-xs rounded-2xl shadow-[0_0_30px_rgba(0,0,0,0.1)] border border-white/30 p-8 sm:p-12">
           <div className="grid grid-cols-1 space-x-15 lg:grid-cols-2 gap-12 items-stretch min-h-[700px]">
