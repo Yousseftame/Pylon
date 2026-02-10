@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { MoveUp } from "lucide-react";
 
-
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -31,16 +30,20 @@ export default function ScrollToTop() {
   }, []);
 
   return (
-    <>
-      {isVisible && (
-        <button
-          onClick={scrollToTop}
-          className="fixed bottom-8 right-8 z-50 p-4 rounded-full bg-black/80 text-white shadow-lg hover:bg-black transition-all duration-300 hover:scale-110 group"
-          aria-label="Scroll to top"
-        >
-          <MoveUp />
-        </button>
-      )}
-    </>
+    <div
+      className={`fixed bottom-8 right-8 z-50 transition-all duration-500 ease-in-out ${
+        isVisible
+          ? "opacity-100 translate-y-0"
+          : "opacity-0 translate-y-16 pointer-events-none"
+      }`}
+    >
+      <button
+        onClick={scrollToTop}
+        className="p-4 rounded-full bg-black/80 text-white shadow-lg hover:bg-black transition-all duration-300 hover:scale-110 group"
+        aria-label="Scroll to top"
+      >
+        <MoveUp />
+      </button>
+    </div>
   );
 }

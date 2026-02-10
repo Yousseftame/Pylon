@@ -5,25 +5,27 @@ import TactSection from "../../components/shared/Tactsection";
 import ThinkSection from "../../components/shared/ThinkSection";
 import InsightifySection from "../../components/shared/InsightifySection";
 import MediaMagnetSection from "../../components/shared/Mediamagnetsection";
+import { href } from "react-router-dom";
 
 export default function Services() {
   const services = [
-    "MEDIA PRODUCTIONS",
-    "PUBLIC POLICY",
-    "AI SOLUTIONS",
-    "E-COMMERCE & TRADE",
-    "PR & MARKETING",
-    "STRATEGIC FORSIGHT",
-    "WEBSITE, APPS & AI",
-    "ADVERTISING CAMPAIGNS",
-    "BRANDING STRATEGIES",
-    "SPACE DESIGN",
-    "CONTENT CREATION",
-    "SOCIAL MEDIA",
-    "MEDIA BUYING",
-    "DOCUMENTARY PRODUCTION",
-    "SCRIPT WRITING",
+    { label: "MEDIA PRODUCTIONS", url: "https://lucide.dev/icons/move-up" },
+    { label: "PUBLIC POLICY", url: "tact" },
+    { label: "AI SOLUTIONS", url: "think" },
+    { label: "E-COMMERCE & TRADE", url: "ds" },
+    { label: "PR & MARKETING", url: "media" },
+    { label: "STRATEGIC FORSIGHT", url: "insightify" },
+    { label: "WEBSITE, APPS & AI", url: "think" },
+    { label: "ADVERTISING CAMPAIGNS", url: "media" },
+    { label: "BRANDING STRATEGIES", url: "ds" },
+    { label: "SPACE DESIGN", url: "tact" },
+    { label: "CONTENT CREATION", url: "media" },
+    { label: "SOCIAL MEDIA", url: "media" },
+    { label: "MEDIA BUYING", url: "media" },
+    { label: "DOCUMENTARY PRODUCTION", url: "media" },
+    { label: "SCRIPT WRITING", url: "media" },
   ];
+
 
   return (
     <>
@@ -43,10 +45,13 @@ export default function Services() {
             <div className="flex flex-wrap justify-center items-center gap-4 w-full px-4 mb-16">
               {services.map((service, index) => (
                 <button
+                  onClick={() => {
+                    window.open(service.url, "_blank", "noopener,noreferrer");
+                  }}
                   key={index}
                   className="service-button px-8 py-4 rounded-full bg-[#D2D4D1]/90 text-black text-[11px] sm:text-[13px] font-medium tracking-wider uppercase transition-all duration-300 hover:bg-black hover:text-white shadow-[0_4px_8px_rgba(0,0,0,0.15)]"
                 >
-                  {service}
+                  {service.label}
                 </button>
               ))}
             </div>
@@ -72,14 +77,12 @@ export default function Services() {
         <ThinkSection />
 
         {/* Spacer Section - Shows services background again before next section */}
-       
 
         {/* Insightify Section - Has its own background image */}
         <InsightifySection />
 
-
-          {/* Media Magnet Section - Continues with same background */}
-        <MediaMagnetSection/>
+        {/* Media Magnet Section - Continues with same background */}
+        <MediaMagnetSection />
       </section>
     </>
   );
