@@ -11,19 +11,20 @@ import Think from '../Sections/Think'
 import MediaMagnet from '../Sections/MediaMagnet'
 import DS from '../Sections/DS'
 import Insightify from '../Sections/Insightify'
+import ScrollToTop from '../../components/shared/ScrollToTop'
 
 export default function Home() {
   return (
-        <div className="min-h-screen ">
+    <div className="min-h-screen ">
+      <NavBar />
+      <HeroSection />
+      <Purpose />
+      <Culture />
+      <Services />
 
-          <NavBar />
-          <HeroSection />
-          <Purpose />
-          <Culture />
-          <Services />
-        
-          <Footer />
-
+      <Footer />
+      {/* Scroll to Top Button */}
+      <ScrollToTop />
     </div>
-  )
+  );
 }
