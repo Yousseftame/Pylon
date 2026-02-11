@@ -11,11 +11,11 @@ export default function Services() {
   const services = [
     { label: "MEDIA PRODUCTIONS", url: "https://lucide.dev/icons/move-up" },
     { label: "PUBLIC POLICY", url: "tact" },
-    { label: "AI SOLUTIONS", url: "think" },
+    { label: "AI SOLUTIONS", url: "https://thinkstudio.ai/" },
     { label: "E-COMMERCE & TRADE", url: "ds" },
     { label: "PR & MARKETING", url: "media" },
     { label: "STRATEGIC FORSIGHT", url: "insightify" },
-    { label: "WEBSITE, APPS & AI", url: "think" },
+    { label: "WEBSITE, APPS & AI", url: "https://thinkstudio.ai/" },
     { label: "ADVERTISING CAMPAIGNS", url: "media" },
     { label: "BRANDING STRATEGIES", url: "ds" },
     { label: "SPACE DESIGN", url: "tact" },

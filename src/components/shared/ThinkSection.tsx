@@ -74,8 +74,8 @@ export default function ThinkSection() {
             </div>
 
             {/* Second Description - Body Text */}
-            <div className=" lg:mt-40">
-              <span className="text-sm sm:text-2xl  lg:pt-17 text-white ">
+            <div className=" lg:mt-42 2xl:mt-60 ">
+              <span className="text-sm sm:text-2xl  lg:pt-17  text-white ">
                 Engineering smart environments and human-centered innovation,
                 THINK is where imagination meets code. Specializing in AI
                 systems, XR technologies, and digital simulations, THINK
@@ -90,7 +90,16 @@ export default function ThinkSection() {
 
             {/* Button */}
             <div className="mt-8">
-              <button className="service-button px-8 py-4 rounded-full bg-white/10 backdrop-blur-xs border border-white/30 text-white text-[11px] sm:text-[13px] font-medium tracking-wider uppercase transition-all duration-300 hover:bg-white hover:text-black shadow-[0_4px_8px_rgba(0,0,0,0.15)]">
+              <button
+               
+                  onClick={() => {
+                    window.open(
+                      "https://thinkstudio.ai/",
+                      "_blank",
+                      "noopener,noreferrer",
+                    );
+                  }}
+                className="service-button px-8 py-4 rounded-full bg-white/10 backdrop-blur-xs border border-white/30 text-white text-[11px] sm:text-[13px] font-medium tracking-wider uppercase transition-all duration-300 hover:bg-white hover:text-black shadow-[0_4px_8px_rgba(0,0,0,0.15)]">
                 GO TO WEBSITE
               </button>
             </div>
