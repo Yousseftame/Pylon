@@ -12,7 +12,7 @@ export default function ThinkSection() {
       {/* Optional dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black/20"></div>
 
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-12 overflow-hidden relative z-10">
+      <div className=" mx-auto px-4 sm:px-12 overflow-hidden relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch min-h-[800px]">
           {/* Left Side - Images with Text */}
           <div

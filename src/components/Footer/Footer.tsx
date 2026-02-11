@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="min-h-screen w-full">
-      <div className="max-w-[1400px] 2xl:max-w-[2000px]  mx-auto px-4 sm:px-12">
+    <footer className=" w-full">
+      <div className=" mx-auto px-4 sm:px-8 md:px-12">
         {/* Realistic Silver Glass Box Container */}
         <div
-          className="relative rounded-2xl p-8 sm:p-12 overflow-hidden"
+          className="relative rounded-2xl p-6 sm:p-8 md:p-10 lg:p-12 overflow-hidden"
           style={{
             background:
               "linear-gradient(to right, rgba(229, 231, 235, 0.4), rgba(229, 231, 235, 0.4), rgba(229, 231, 235, 0.4))",
@@ -55,52 +55,52 @@ export default function Footer() {
           {/* Content wrapper with z-index */}
           <div className="relative z-10">
             {/* Full Width Horizontal Line */}
-            <div className="w-full h-[2px] bg-black mb-8"></div>
+            <div className="w-full h-[1.5px] sm:h-[2px] bg-black mb-6 sm:mb-8"></div>
 
             {/* Top Section - Left and Right */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 mb-12 sm:mb-14 md:mb-16">
               {/* Left Side - Our Links */}
-              <div className="space-y-8">
+              <div className="space-y-6 sm:space-y-8">
                 {/* Our Links Section - Taking Full Left Side on Desktop */}
                 <div>
-                  <h2 className="text-base sm:text-2xl font-medium text-black mb-8">
+                  <h2 className="text-base sm:text-xl md:text-2xl font-medium text-black mb-6 sm:mb-8">
                     OUR LINKS
                   </h2>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-y-6 sm:gap-x-8 lg:gap-y-8">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-y-4 sm:gap-y-5 md:gap-y-6 lg:gap-y-8 sm:gap-x-8">
                     <a
                       href="#ds"
-                      className="text-lg sm:text-xl lg:text-2xl text-black/70 hover:text-black transition-colors font-light tracking-wide"
+                      className="text-base sm:text-lg md:text-xl lg:text-2xl text-black/70 hover:text-black transition-colors font-light tracking-wide"
                     >
                       DS+
                     </a>
                     <a
                       href="#think"
-                      className="text-lg sm:text-xl lg:text-2xl text-black/70 hover:text-black transition-colors font-light tracking-wide"
+                      className="text-base sm:text-lg md:text-xl lg:text-2xl text-black/70 hover:text-black transition-colors font-light tracking-wide"
                     >
                       THINK
                     </a>
                     <a
                       href="#insightify"
-                      className="text-lg sm:text-xl lg:text-2xl text-black/70 hover:text-black transition-colors font-light tracking-wide"
+                      className="text-base sm:text-lg md:text-xl lg:text-2xl text-black/70 hover:text-black transition-colors font-light tracking-wide"
                     >
                       INSIGHTIFY
                     </a>
                     <a
                       href="#media"
-                      className="text-lg sm:text-xl lg:text-2xl text-black/70 hover:text-black transition-colors font-light tracking-wide"
+                      className="text-base sm:text-lg md:text-xl lg:text-2xl text-black/70 hover:text-black transition-colors font-light tracking-wide"
                     >
                       MEDIA MAGNET
                     </a>
                     <a
                       href="#tut"
-                      className="text-lg sm:text-xl lg:text-2xl text-black/70 hover:text-black transition-colors font-light tracking-wide"
+                      className="text-base sm:text-lg md:text-xl lg:text-2xl text-black/70 hover:text-black transition-colors font-light tracking-wide"
                     >
                       TUT GROUP
                     </a>
                     <a
                       href="#tact"
-                      className="text-lg sm:text-xl lg:text-2xl text-black/70 hover:text-black transition-colors font-light tracking-wide"
+                      className="text-base sm:text-lg md:text-xl lg:text-2xl text-black/70 hover:text-black transition-colors font-light tracking-wide"
                     >
                       TACT CONSTRUCTION
                     </a>
@@ -113,7 +113,7 @@ export default function Footer() {
                 {/* Text Content - Narrow columns, 6-7 lines each */}
                 <div className="grid grid-cols-1 gap-y-6 max-w-[200px]">
                   <p className="text-[10px] text-black/80 leading-relaxed">
-                    Pylon Collective is more than a name — it's a symbol of
+                    Pylon Holding is more than a name — it's a symbol of
                     purpose, power, and progress. Inspired by the towering
                     gateways of ancient Egypt, the word "Pylon" represents our
                     deep cultural roots and monumental vision. Just as the
@@ -124,7 +124,7 @@ export default function Footer() {
                   </p>
 
                   <p className="text-[10px] text-black/80 leading-relaxed">
-                    The word "Collective" reflects the very core of our
+                    The word "Holding" reflects the very core of our
                     identity: a unified force of specialized talent spanning
                     culture, public policy, immersive technologies, commerce,
                     and strategic communications. Each pillar represents a
@@ -133,7 +133,7 @@ export default function Footer() {
                   </p>
 
                   <p className="text-[10px] text-black/80 leading-relaxed">
-                    Pylon Collective is a beacon of cultural and technological
+                    Pylon Holding is a beacon of cultural and technological
                     strength — empowering ideas, elevating brands, and
                     envisioning the future through shared vision and
                     interconnected capabilities.
@@ -150,14 +150,14 @@ export default function Footer() {
             </div>
 
             {/* Bottom Section */}
-            <div className="space-y-8 ">
+            <div className="space-y-6 sm:space-y-8">
               {/* Buttons */}
-              <div className="flex flex-wrap gap-4 justify-center ">
-                <button className="px-8 py-3 rounded-full bg-black text-white text-xs font-medium tracking-wider uppercase transition-all duration-300 hover:bg-black/80 flex items-center gap-2">
+              <div className="flex flex-wrap gap-3 sm:gap-4 justify-center">
+                <button className="px-6 sm:px-8 py-2.5 sm:py-3 rounded-full bg-black text-white text-[10px] sm:text-xs font-medium tracking-wider uppercase transition-all duration-300 hover:bg-black/80 flex items-center gap-2">
                   EXPLORE NOW
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4"
+                    className="h-3 sm:h-4 w-3 sm:w-4"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -171,11 +171,11 @@ export default function Footer() {
                   </svg>
                 </button>
 
-                <button className="px-8 py-3 rounded-full bg-transparent border-2 border-black text-black text-xs font-medium tracking-wider uppercase transition-all duration-300 hover:bg-black hover:text-white flex items-center gap-2">
+                <button className="px-6 sm:px-8 py-2.5 sm:py-3 rounded-full bg-transparent border-2 border-black text-black text-[10px] sm:text-xs font-medium tracking-wider uppercase transition-all duration-300 hover:bg-black hover:text-white flex items-center gap-2">
                   READ DOCS
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-4 w-4"
+                    className="h-3 sm:h-4 w-3 sm:w-4"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -191,36 +191,36 @@ export default function Footer() {
               </div>
 
               {/* Social Links */}
-              <div className="flex justify-center gap-8">
+              <div className="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8">
                 <a
                   href="#"
-                  className="text-xs font-medium text-black/80 hover:text-black transition-colors underline"
+                  className="text-[10px] sm:text-xs font-medium text-black/80 hover:text-black transition-colors underline"
                 >
                   BEHANCE
                 </a>
                 <a
                   href="#"
-                  className="text-xs font-medium text-black/80 hover:text-black transition-colors underline"
+                  className="text-[10px] sm:text-xs font-medium text-black/80 hover:text-black transition-colors underline"
                 >
                   DRIBBBLE
                 </a>
                 <a
                   href="#"
-                  className="text-xs font-medium text-black/80 hover:text-black transition-colors underline"
+                  className="text-[10px] sm:text-xs font-medium text-black/80 hover:text-black transition-colors underline"
                 >
                   INSTAGRAM
                 </a>
                 <a
                   href="#"
-                  className="text-xs font-medium text-black/80 hover:text-black transition-colors underline"
+                  className="text-[10px] sm:text-xs font-medium text-black/80 hover:text-black transition-colors underline"
                 >
                   TWITTER
                 </a>
               </div>
 
-              {/* Large Pylon Collective Text */}
-              <div className="pt-8">
-                <h1 className="text-center text-7xl sm:text-8xl lg:text-[140px] xl:text-[160px]  text-black/[0.3] tracking-tight leading-none">
+              {/* Large Pylon Holding Text */}
+              <div className="pt-6 sm:pt-8">
+                <h1 className="text-center text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[120px] 2xl:text-[140px] text-black/[0.3] tracking-tight leading-none">
                   Pylon Holding
                 </h1>
               </div>

@@ -52,7 +52,7 @@ a,h1, h3,h4,h5  {
 /* Medium screens */
 @media (min-width: 641px) and (max-width: 1024px) {
   .pylon-heading {
-    line-height: 0.92;
+    line-height: 0.2;
   }
 }
 

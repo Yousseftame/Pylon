@@ -8,12 +8,12 @@ export default function InsightifySection() {
   return (
     <section
       id="insightify"
-      className="min-h-screen w-full py-16 relative bg-insightify-cover bg-cover bg-center bg-no-repeat"
+      className=" w-full py-16 relative bg-insightify-cover bg-cover bg-center bg-no-repeat"
     >
       {/* Optional overlay */}
       <div className="absolute inset-0 bg-black/10"></div>
 
-      <div className="max-w-[1400px] 2xl:max-w-[2000px]  mx-auto px-4 sm:px-12 overflow-hidden relative z-10">
+      <div className="  mx-auto px-4 sm:px-12 overflow-hidden relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch min-h-[800px]">
           {/* Left Side - Glass Box with Content and Image */}
           <div data-aos="fade-right" className="flex flex-col h-full">
