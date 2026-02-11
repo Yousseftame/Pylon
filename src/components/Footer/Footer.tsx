@@ -1,3 +1,4 @@
+import { MoveRight } from "lucide-react";
 import React from "react";
 
 export default function Footer() {
@@ -165,22 +166,17 @@ export default function Footer() {
             <div className="space-y-6 sm:space-y-8">
               {/* Buttons */}
               <div className="flex flex-wrap gap-3 sm:gap-4 justify-center">
-                <button className="px-6 sm:px-8 py-2.5 sm:py-3 rounded-full bg-black text-white text-[10px] sm:text-xs font-medium tracking-wider uppercase transition-all duration-300 hover:bg-black/80 flex items-center gap-2">
+                <button
+                  onClick={() => {
+                    const el = document.getElementById("services");
+                    if (el) {
+                      el.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                  className="px-6 sm:px-8 py-2.5 sm:py-3 rounded-full bg-black text-white text-[10px] sm:text-xs font-medium tracking-wider uppercase transition-all duration-300 hover:bg-black/80 flex items-center gap-2"
+                >
                   EXPLORE NOW
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-3 sm:h-4 w-3 sm:w-4"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    />
-                  </svg>
+                  <MoveRight />
                 </button>
 
                 <button className="px-6 sm:px-8 py-2.5 sm:py-3 rounded-full bg-transparent border-2 border-black text-black text-[10px] sm:text-xs font-medium tracking-wider uppercase transition-all duration-300 hover:bg-black hover:text-white flex items-center gap-2">
