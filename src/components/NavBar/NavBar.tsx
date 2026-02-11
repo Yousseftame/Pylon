@@ -75,7 +75,10 @@ const Navbar = () => {
               </div>
 
               {/* Right Side Text - Hidden on small screens */}
-              <div className="hidden lg:block absolute top-4 md:top-6 right-4 sm:right-8 md:right-12 text-black text-[9px] md:text-[10px] font-light max-w-[180px] md:max-w-[220px] text-left">
+              <div
+                data-aos="zoom-in"
+                className="hidden lg:block absolute top-4 md:top-6 right-4 sm:right-8 md:right-12 text-black text-[9px] md:text-[10px] font-light max-w-[180px] md:max-w-[220px] text-left"
+              >
                 Pylon Holding is more than a name – it's a symbol of purpose,
                 power, and progress. Inspired by the towering gateways of
                 ancient Egypt, the word "Pylon" represents our deep cultural
@@ -108,11 +111,11 @@ const Navbar = () => {
               {/* Middle Content - Description and Button */}
               <div className="flex flex-col sm:flex-row items-start justify-between mb-12 sm:mb-16 md:mb-24">
                 {/* Left side - Main description */}
-                <div
-                  data-aos="fade-down"
-                  className="max-w-full sm:max-w-[450px] md:max-w-[580px] text-center sm:text-left md:text-center lg:text-center"
-                >
-                  <p className="text-[14px] sm:text-[16px] md:text-[18px] font-light mb-6 sm:mb-8">
+                <div className="max-w-full sm:max-w-[450px] md:max-w-[580px] text-center sm:text-left md:text-center lg:text-center">
+                  <p
+                    data-aos="zoom-in"
+                    className="text-[14px] sm:text-[16px] md:text-[18px] font-light mb-6 sm:mb-8"
+                  >
                     Pylon Holding is a beacon of cultural and technological
                     strength – empowering ideas, elevating brands, and
                     envisioning the future through shared vision and

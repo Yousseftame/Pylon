@@ -56,18 +56,28 @@ export default function TutSection() {
 
             {/* Button */}
             <div className="pt-3 sm:pt-4">
-              <button className="service-button px-6 sm:px-7 md:px-8 py-3 sm:py-3.5 md:py-4 rounded-full bg-[#D2D4D1]/90 text-black text-[10px] sm:text-[11px] md:text-[13px] font-medium tracking-wider uppercase transition-all duration-300 hover:bg-black hover:text-white shadow-[0_4px_8px_rgba(0,0,0,0.15)]">
+              <button
+                onClick={() => {
+                  window.open(
+                    "https://tradeontut.com/",
+                    "_blank",
+                    "noopener,noreferrer",
+                  );
+                }}
+                className="service-button px-6 sm:px-7 md:px-8 py-3 sm:py-3.5 md:py-4 rounded-full bg-[#D2D4D1]/90 text-black text-[10px] sm:text-[11px] md:text-[13px] font-medium tracking-wider uppercase transition-all duration-300 hover:bg-black hover:text-white shadow-[0_4px_8px_rgba(0,0,0,0.15)]"
+              >
                 GO TO WEBSITE
               </button>
             </div>
 
-            
             {/* Large Image at the Bottom */}
             <div className="col-span-7 h-[180px] sm:h-[200px] md:h-[215px] lg:h-[215px]  overflow-hidden rounded-lg">
               <img
                 src={Section4}
                 alt="Gallery 3"
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                loading="eager"
+                decoding="async"
               />
             </div>
           </div>
@@ -83,8 +93,10 @@ export default function TutSection() {
               <div className="col-span-3 h-[320px] sm:h-[380px] md:h-[440px] overflow-hidden rounded-lg">
                 <img
                   src={Section1}
-                  alt="Gallery 1"
+                  alt="Gallery 5"
                   className="w-full h-full object-fill transition-transform duration-300 hover:scale-105"
+                  loading="eager"
+                  decoding="async"
                 />
               </div>
 
@@ -94,6 +106,8 @@ export default function TutSection() {
                   src={Section2}
                   alt="Gallery 2"
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  loading="eager"
+                  decoding="async"
                 />
               </div>
             </div>
@@ -106,6 +120,8 @@ export default function TutSection() {
                   src={Section3}
                   alt="Gallery 3"
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  loading="eager"
+                  decoding="async"
                 />
               </div>
 
@@ -117,6 +133,8 @@ export default function TutSection() {
                     src={Section5}
                     alt="Gallery 4"
                     className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                    loading="eager"
+                    decoding="async"
                   />
                 </div>
               </div>

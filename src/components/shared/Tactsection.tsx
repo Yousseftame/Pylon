@@ -50,11 +50,7 @@ export default function TactSection() {
               {/* Button */}
               <div
                 onClick={() => {
-                  window.open(
-                    "",
-                    "_blank",
-                    "noopener,noreferrer",
-                  );
+                  window.open("", "_blank", "noopener,noreferrer");
                 }}
                 className="mt-8"
               >
@@ -75,6 +71,8 @@ export default function TactSection() {
                   src={TactImage1}
                   alt="TACT Project 1"
                   className="w-full h-full object-cover  transition-transform duration-300 hover:scale-105"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
 
@@ -91,6 +89,8 @@ export default function TactSection() {
                   src={TactImage2}
                   alt="TACT Project 2"
                   className="w-full h-full object-cover  transition-transform duration-300 hover:scale-105"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>

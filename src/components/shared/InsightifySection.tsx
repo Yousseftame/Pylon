@@ -68,6 +68,8 @@ export default function InsightifySection() {
                     src={InsightifyImage3}
                     alt="Insightify Research"
                     className="w-full h-full object-fill transition-transform duration-300 hover:scale-105"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
               </div>
@@ -85,6 +87,8 @@ export default function InsightifySection() {
                 src={InsightifyImage1}
                 alt="Policy Research"
                 className="w-full h-full object-fill transition-transform duration-300 hover:scale-105"
+                loading="lazy"
+                decoding="async"
               />
             </div>
 
@@ -101,6 +105,8 @@ export default function InsightifySection() {
                 src={InsightifyImage2}
                 alt="Strategic Advisory"
                 className="w-full h-full object-fill transition-transform duration-300 hover:scale-105"
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>

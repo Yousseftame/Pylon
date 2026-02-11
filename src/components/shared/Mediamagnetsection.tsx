@@ -27,9 +27,9 @@ export default function MediaMagnetSection() {
             {/* First Description */}
             <div>
               <h3 className="text-sm sm:text-base md:text-lg lg:text-xl text-[#3B3B3B] leading-relaxed font-light">
-                MEDIA MAGNET IS PYLON Holding'S HUB FOR DIGITAL STORYTELLING
-                AND SOCIAL INFLUENCE. FROM VIRAL VIDEOS AND BRAND STORYTELLING
-                TO INFLUENCER PARTNERSHIPS AND DIGITAL ACTIVATIONS, MEDIA MAGNET
+                MEDIA MAGNET IS PYLON Holding'S HUB FOR DIGITAL STORYTELLING AND
+                SOCIAL INFLUENCE. FROM VIRAL VIDEOS AND BRAND STORYTELLING TO
+                INFLUENCER PARTNERSHIPS AND DIGITAL ACTIVATIONS, MEDIA MAGNET
                 HELPS BRANDS GROW THEIR VOICE, SHAPE PERCEPTION, AND STAY AT THE
                 CENTER OF CULTURE.
               </h3>
@@ -73,6 +73,8 @@ export default function MediaMagnetSection() {
               src={MediaMagnetBottomImage}
               alt="Media Magnet Content"
               className="w-full h-full object-fill transition-transform duration-500 ease-out hover:scale-[1.03]"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>

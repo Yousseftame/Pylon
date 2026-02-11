@@ -25,6 +25,8 @@ export default function ThinkSection() {
                 src={ThinkImage1}
                 alt="THINK AI Technology"
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                loading="lazy"
+                decoding="async"
               />
             </div>
 
@@ -41,6 +43,8 @@ export default function ThinkSection() {
                 src={ThinkImage2}
                 alt="THINK Immersive Tech"
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                loading="lazy"
+                decoding="async"
               />
             </div>
 
@@ -91,15 +95,15 @@ export default function ThinkSection() {
             {/* Button */}
             <div className="mt-8">
               <button
-               
                 onClick={() => {
-                    window.open(
-                      "https://thinkstudio.ai/",
-                      "_blank",
-                      "noopener,noreferrer",
-                    );
-                  }}
-                className="service-button px-8 py-4 rounded-full bg-white/10 backdrop-blur-xs border border-white/30 text-white text-[11px] sm:text-[13px] font-medium tracking-wider uppercase transition-all duration-300 hover:bg-white hover:text-black shadow-[0_4px_8px_rgba(0,0,0,0.15)]">
+                  window.open(
+                    "https://thinkstudio.ai/",
+                    "_blank",
+                    "noopener,noreferrer",
+                  );
+                }}
+                className="service-button px-8 py-4 rounded-full bg-white/10 backdrop-blur-xs border border-white/30 text-white text-[11px] sm:text-[13px] font-medium tracking-wider uppercase transition-all duration-300 hover:bg-white hover:text-black shadow-[0_4px_8px_rgba(0,0,0,0.15)]"
+              >
                 GO TO WEBSITE
               </button>
             </div>

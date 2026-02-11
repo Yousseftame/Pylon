@@ -30,6 +30,8 @@ export default function DSSection() {
                   src={DSLogo}
                   alt="DS+ Logo"
                   className="h-12 sm:h-14 md:h-16 lg:h-20"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
 
