@@ -1,6 +1,6 @@
 import React from "react";
 import MediaMagnetLogo from "../../assets/mediaMagnet.png";
-import MediaMagnetBottomImage from "../../assets/mediaMagnet1.png";
+import MediaMagnetBottomImage from "../../assets/mediaMagnet1.webp";
 
 export default function MediaMagnetSection() {
   return (
@@ -49,7 +49,7 @@ export default function MediaMagnetSection() {
             className="flex flex-col justify-between h-full items-start"
           >
             {/* Description Text */}
-            <div className="flex-grow flex items-start lg:mt-33 xl:mt-35">
+            <div className="flex-grow flex items-start lg:mt-33 ">
               <p className="text-xs sm:text-sm md:text-base text-[#3B3B3B] max-w-full lg:max-w-[260px] leading-relaxed">
                 Specializing in content creation, social media strategy, and PR
                 campaigns, we craft bold narratives that resonate across

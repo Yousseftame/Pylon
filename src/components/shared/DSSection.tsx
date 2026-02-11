@@ -1,6 +1,6 @@
 import React from "react";
 import DSLogo from "../../assets/DS+ logo.png";
-import DSImage from "../../assets/imagejj.png";
+import DSImage from "../../assets/imagejj.webp";
 
 export default function DSSection() {
   return (
@@ -19,7 +19,10 @@ export default function DSSection() {
           </div>
 
           {/* Right Side - Glass Morphism Content Box */}
-          <div data-aos="fade-left" className="relative h-full min-h-[900px]">
+          <div
+            data-aos="fade-left"
+            className="relative h-full md:min-h-[800px]"
+          >
             <div className="h-full bg-gradient-to-b from-[#9FA097]/80 via-[#9FA097]/80 to-[#9FA097]/30 backdrop-blur-sm rounded-lg p-6 sm:p-8 md:p-10 lg:p-12 shadow-xl flex flex-col justify-between">
               {/* Logo */}
               <div className="mb-6 sm:mb-8">
@@ -59,7 +62,16 @@ export default function DSSection() {
               </div>
 
               {/* Button */}
-              <div className="mb-6 sm:mb-7 md:mb-8">
+              <div
+                onClick={() => {
+                  window.open(
+                    "https://dsplusme.com/",
+                    "_blank",
+                    "noopener,noreferrer",
+                  );
+                }}
+                className="mb-6 sm:mb-7 md:mb-8"
+              >
                 <button className="service-button px-6 sm:px-7 md:px-8 py-3 sm:py-3.5 md:py-4 rounded-full bg-[#D2D4D1]/90 text-black text-[10px] sm:text-[11px] md:text-[13px] font-medium tracking-wider uppercase transition-all duration-300 hover:bg-black hover:text-white shadow-[0_4px_8px_rgba(0,0,0,0.15)]">
                   GO TO WEBSITE
                 </button>

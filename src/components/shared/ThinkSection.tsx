@@ -1,7 +1,7 @@
 import React from "react";
 import ThinkLogo from "../../assets/think.png"; // Update with your actual logo path
-import ThinkImage1 from "../../assets/thinkimage1.png"; // Update with your actual image path
-import ThinkImage2 from "../../assets/thinkimage2.png"; // Update with your actual image path
+import ThinkImage1 from "../../assets/thinkimage1.webp"; // Update with your actual image path
+import ThinkImage2 from "../../assets/thinkimage2.webp"; // Update with your actual image path
 
 export default function ThinkSection() {
   return (
@@ -92,7 +92,7 @@ export default function ThinkSection() {
             <div className="mt-8">
               <button
                
-                  onClick={() => {
+                onClick={() => {
                     window.open(
                       "https://thinkstudio.ai/",
                       "_blank",

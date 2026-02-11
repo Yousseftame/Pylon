@@ -68,8 +68,6 @@ const Navbar = () => {
                     MEDIA MAGNET
                     <span className="absolute left-0 -bottom-1 w-full h-0.5 bg-black transition-all duration-300 origin-left group-hover:w-0"></span>
                   </a>
-
-                 
                 </nav>
 
                 {/* Black Line Divider */}
@@ -96,9 +94,9 @@ const Navbar = () => {
                 collaboration, synergy, and innovation.
                 <br />
                 <br />
-                Pylon Holding is a beacon of cultural and technological
-                strength – empowering ideas, elevating brands, and envisioning
-                the future through shared vision and interconnected abilities.
+                Pylon Holding is a beacon of cultural and technological strength
+                – empowering ideas, elevating brands, and envisioning the future
+                through shared vision and interconnected abilities.
                 <br />
                 <br />
                 With one foot grounded in heritage and the other reaching toward
@@ -127,7 +125,15 @@ const Navbar = () => {
                   </p>
 
                   {/* Explore Button */}
-                  <button className="border-2   text-black font-light border-black px-5 sm:px-6 md:px-8 mt-4 py-2.5 sm:py-3 text-[10px] sm:text-[11px] md:text-[12px] rounded-4xl font-medium tracking-widest uppercase hover:bg-black hover:text-white transition-all duration-300">
+                  <button
+                    onClick={() => {
+                      const el = document.getElementById("services");
+                      if (el) {
+                        el.scrollIntoView({ behavior: "smooth" });
+                      }
+                    }}
+                    className="border-2   text-black font-light border-black px-5 sm:px-6 md:px-8 mt-4 py-2.5 sm:py-3 text-[10px] sm:text-[11px] md:text-[12px] rounded-4xl font-medium tracking-widest uppercase hover:bg-black hover:text-white transition-all duration-300"
+                  >
                     EXPLORE THE GROUP
                   </button>
                 </div>

@@ -83,26 +83,27 @@ html {
 }
 
 .bg-hero-cover {
-  background-image: url('/src/assets/shutterstock_2039321180\ 1.png');
+  background-image: url('/src/assets/shutterstock_2039321180\ 1.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
 
 .bg-purpose-cover {
-  background-image: url('/src/assets/Rectangle\ 40.png');
+  background-image: url('/src/assets/Rectangle\ 40.webp');
   background-size: cover;
   background-position: top;
 }
 
 .bg-culture-cover {
-  background-image: url('/src/assets/Rectangle\ 41.png');
+  background-image: url('/src/assets/Rectangle\ 41.webp');
   background-size: cover;
   background-position: top;
 }
 
 body {
-  background-image: url('/src/assets/eduard-gross-izPL0yrJZSk-unsplash\ 1.png'); 
+  background-image: url('/src/assets/eduard-gross-izPL0yrJZSk-unsplash\ 1.webp'); 
   background-size: cover; 
   background-position: center center;
   background-repeat: no-repeat;
@@ -119,7 +120,7 @@ body {
   position: absolute;
   inset: 0;
 
-  background-image: url("/src/assets/thinkCover.png");
+  background-image: url("/src/assets/thinkCover.webp");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -133,7 +134,7 @@ body {
 
 
 .bg-insightify-cover {
-  background-image: url('/src/assets/imagegjh.png'); 
+  background-image: url('/src/assets/imagegjh.webp'); 
       background-Size: "cover";
         background-Position: "center";
         background-Repeat: "no-repeat";

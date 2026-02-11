@@ -1,8 +1,8 @@
 import React from "react";
 import InsightifyLogo from "../../assets/insightify.png"; // Update with your actual logo path
-import InsightifyImage1 from "../../assets/insightifyImage1.png"; // Image inside glass box
-import InsightifyImage2 from "../../assets/insightifyImage2.png"; // Top right image
-import InsightifyImage3 from "../../assets/insightifyImage3.png"; // Bottom right image
+import InsightifyImage1 from "../../assets/insightifyImage1.webp"; // Image inside glass box
+import InsightifyImage2 from "../../assets/insightifyImage2.webp"; // Top right image
+import InsightifyImage3 from "../../assets/insightifyImage3.webp"; // Bottom right image
 
 export default function InsightifySection() {
   return (

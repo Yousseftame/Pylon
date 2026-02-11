@@ -1,10 +1,10 @@
 import React from "react";
 import Tut from "../../assets/Layer_1.png";
-import Section1 from "../../assets/image.png";
-import Section2 from "../../assets/imagel;.png";
-import Section3 from "../../assets/imageee.png";
-import Section4 from "../../assets/image (2).png";
-import Section5 from "../../assets/image (1).png";
+import Section1 from "../../assets/image.webp";
+import Section2 from "../../assets/imagel;.webp";
+import Section3 from "../../assets/imageee.webp";
+import Section4 from "../../assets/image (2).webp";
+import Section5 from "../../assets/image (1).webp";
 
 export default function TutSection() {
   return (
