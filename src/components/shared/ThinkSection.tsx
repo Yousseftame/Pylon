@@ -1,4 +1,3 @@
-import React from "react";
 import ThinkLogo from "../../assets/think.png"; // Update with your actual logo path
 import ThinkImage1 from "../../assets/thinkimage1.webp"; // Update with your actual image path
 import ThinkImage2 from "../../assets/thinkimage2.webp"; // Update with your actual image path
@@ -17,7 +16,7 @@ export default function ThinkSection() {
           {/* Left Side - Images with Text */}
           <div
             data-aos="fade-right"
-            className="flex flex-col justify-between space-y-6 h-full"
+            className="flex flex-col justify-between  space-y-6 h-full"
           >
             {/* First Image - Top */}
             <div className="flex-1 overflow-hidden rounded-lg">
@@ -61,7 +60,7 @@ export default function ThinkSection() {
           {/* Right Side - Content */}
           <div
             data-aos="fade-left"
-            className="flex flex-col justify-between h-full"
+            className="flex flex-col justify-between   h-full"
           >
             {/* Logo Image */}
             <div className="mb-8">
@@ -78,8 +77,8 @@ export default function ThinkSection() {
             </div>
 
             {/* Second Description - Body Text */}
-            <div className=" lg:mt-42 2xl:mt-60 ">
-              <span className="text-sm sm:text-2xl  lg:pt-17  text-white ">
+            <div className=" mt-60   ">
+              <span className="text-sm sm:text-3xl  lg:pt-17  text-white ">
                 Engineering smart environments and human-centered innovation,
                 THINK is where imagination meets code. Specializing in AI
                 systems, XR technologies, and digital simulations, THINK

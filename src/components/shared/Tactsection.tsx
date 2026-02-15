@@ -1,4 +1,3 @@
-import React from "react";
 import TactLogo from "../../assets/tact.png"; // Update with your actual logo path
 import TactImage1 from "../../assets/tactImage1.webp"; // Update with your actual image path
 import TactImage2 from "../../assets/tactImage2.webp"; // Update with your actual image path

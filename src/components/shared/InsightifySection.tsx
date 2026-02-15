@@ -1,4 +1,3 @@
-import React from "react";
 import InsightifyLogo from "../../assets/insightify.png"; // Update with your actual logo path
 import InsightifyImage1 from "../../assets/insightifyImage1.webp"; // Image inside glass box
 import InsightifyImage2 from "../../assets/insightifyImage2.webp"; // Top right image

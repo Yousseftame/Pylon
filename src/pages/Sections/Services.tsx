@@ -1,11 +1,9 @@
-import React from "react";
 import TutSection from "../../components/shared/TutSection";
 import DSSection from "../../components/shared/DSSection";
 import TactSection from "../../components/shared/Tactsection";
 import ThinkSection from "../../components/shared/ThinkSection";
 import InsightifySection from "../../components/shared/InsightifySection";
 import MediaMagnetSection from "../../components/shared/Mediamagnetsection";
-import { href } from "react-router-dom";
 
 export default function Services() {
   const services = [
