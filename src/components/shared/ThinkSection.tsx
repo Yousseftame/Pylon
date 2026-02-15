@@ -1,6 +1,6 @@
 import ThinkLogo from "../../assets/think.png"; // Update with your actual logo path
-import ThinkImage1 from "../../assets/tk.webp"; // Update with your actual image path
-import ThinkImage2 from "../../assets/tk2.webp"; // Update with your actual image path
+import tk from "../../assets/tk.webp"; // Update with your actual image path
+import tk2 from "../../assets/tk2.webp"; // Update with your actual image path
 
 export default function ThinkSection() {
   return (
@@ -21,7 +21,7 @@ export default function ThinkSection() {
             {/* First Image - Top */}
             <div className="flex-1 overflow-hidden rounded-lg">
               <img
-                src={ThinkImage1}
+                src={tk}
                 alt="THINK AI Technology"
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                 loading="lazy"
@@ -39,7 +39,7 @@ export default function ThinkSection() {
             {/* Second Image - Middle */}
             <div className="flex-1 overflow-hidden rounded-lg">
               <img
-                src={ThinkImage2}
+                src={tk2}
                 alt="THINK Immersive Tech"
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                 loading="lazy"
