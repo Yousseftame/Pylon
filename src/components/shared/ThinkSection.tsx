@@ -77,7 +77,7 @@ export default function ThinkSection() {
             </div>
 
             {/* Second Description - Body Text */}
-            <div className=" mt-60   ">
+            <div className=" lg:mt-60   ">
               <span className="text-sm sm:text-3xl  lg:pt-17  text-white ">
                 Engineering smart environments and human-centered innovation,
                 THINK is where imagination meets code. Specializing in AI
