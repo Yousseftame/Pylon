@@ -1,6 +1,6 @@
 import ThinkLogo from "../../assets/think.png"; // Update with your actual logo path
-import ThinkImage1 from "../../assets/thinkimage1.webp"; // Update with your actual image path
-import ThinkImage2 from "../../assets/thinkimage2.webp"; // Update with your actual image path
+import ThinkImage1 from "../../assets/tk.webp"; // Update with your actual image path
+import ThinkImage2 from "../../assets/tk2.webp"; // Update with your actual image path
 
 export default function ThinkSection() {
   return (
